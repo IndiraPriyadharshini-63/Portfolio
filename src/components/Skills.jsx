@@ -68,6 +68,9 @@ function Skills() {
           <div className="shadow-md shadow-[#ffc6e9] hover:scale-110 duration-500">
             <p className="my-4">Tailwind CSS</p>
           </div>
+          <div className="shadow-md shadow-[#ffc6e9] hover:scale-110 duration-500">
+            <p className="my-4">InkScape</p>
+          </div>
         </div>
       </div>
     </div>
