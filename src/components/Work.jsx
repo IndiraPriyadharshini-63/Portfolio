@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import WorkList from "./WorkList";
 import taskImage from "../assets/task.png";
+
 
 function Work() {
   const [works, setWorks] = useState([
