@@ -7,7 +7,7 @@ function Contact() {
     <div className=" flex   justify-center items-center">
       <ul className="flex ">
         <li>
-          <a href="/https://linkedin.com/">
+          <a href="https://linkedin.com/">
             <FaLinkedin size={40} color="blue" />
           </a>
         </li>
@@ -17,7 +17,7 @@ function Contact() {
           </a>
         </li>
         <li>
-          <a href="mailto:indirapriyadharshini@gmail.com">
+          <a href="mailto:indirapriyadharshinimary@gmail.com">
             <HiOutlineMail size={40} color="red" />
           </a>
         </li>
