@@ -17,7 +17,7 @@ function Contact() {
           </a>
         </li>
         <li>
-          <a href="mailto:indirapriyadharshinimary@gmail.com">
+          <a href="mailto:indirapriyadharshini.mary@gmail.com">
             <HiOutlineMail size={40} color="red" />
           </a>
         </li>
