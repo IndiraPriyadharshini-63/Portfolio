@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import WorkList from "./WorkList";
-import taskImage from "../assets/task.png";
+import taskImage from "../assets/task1.png";
 import sortImage from "../assets/sorting.png";
 
 function Work() {
