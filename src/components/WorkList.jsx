@@ -4,7 +4,7 @@ const WorkList = (props) => {
     <>
       {works.map((work) => (
         <div
-          className=" shadow-xl shadow-[#ffc6e9] hover:shadow-xl hover:shadow-[#ff98d5] border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal  group transition "
+          className="  shadow-xl  hover:shadow-xl hover:shadow-[#dcdadb] border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-lg  flex flex-col justify-between leading-normal  group transition "
           id={work.id}
         >
           <img src={work.image} class="w-full mb-3" alt="project" />
