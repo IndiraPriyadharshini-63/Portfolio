@@ -7,7 +7,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 function AboutV2() {
   return (
-    <div id="about" className="flex  justify-center mt-0 mb-2 sm:mt-0 sm:mb-0">
+    <div id="about" className="flex  justify-center mt-0 mb-2 md:mt-0 md:mb-0">
       <div className="py-16 px-8 rounded-md bg-[#D0D0D0] flex flex-col justify-center items-center w-4/6 pt-8">
         <p className="text-4xl font-bold border-b-4 border-[#ffffff] justify-center text-[#b70048] ">
           Some Things About Me
