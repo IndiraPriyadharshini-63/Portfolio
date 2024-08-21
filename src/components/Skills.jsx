@@ -1,30 +1,7 @@
 import React from "react";
+import { skills } from "../helper/helper";
 
 function Skills() {
-  const skills = [
-    "C",
-    "C++",
-    "Java",
-    "Kotlin",
-    "React JS",
-    "Node JS",
-    "Express JS",
-    "JavaScript",
-    "TypeScript",
-    "HTML",
-    "CSS",
-    "Bootstrap",
-    "Tailwind CSS",
-    "PHP",
-    "MySQL",
-    "MONGODB",
-    "Drupal",
-    "Android Studio",
-    "UX / UI Design",
-    "Quality Assurance",
-    "Figma",
-    "InkScape",
-  ];
   return (
     <div name="skills" className="w-full h-screen bg-[#fff] text-[#b70048]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -38,9 +15,12 @@ function Skills() {
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 font-bold">
-        {skills.map((skill) => (
-            <div className="shadow-md shadow-[#ffc6e9] hover:scale-110 duration-500">
-              <p className="my-4">{skill}</p>
+          {skills.map((skill) => (
+            <div
+              key={skill.id}
+              className="shadow-md shadow-[#ffc6e9] hover:scale-110 duration-500"
+            >
+              <p className="my-4">{skill.name}</p>
             </div>
           ))}
         </div>

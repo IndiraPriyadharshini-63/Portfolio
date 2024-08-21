@@ -1,13 +1,14 @@
-const WorkList = (props) => {
-  const works = props.works;
+const WorkList = ({works}) => {
+  
   return (
     <>
       {works.map((work) => (
         <div
           className="  shadow-xl  hover:shadow-xl hover:shadow-[#dcdadb] border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-lg  flex flex-col justify-between leading-normal  group transition "
-          id={work.id}
+          
+          key={work.id}
         >
-          <img src={work.image} class="w-full mb-3" alt="project" />
+          <img src={work.image} className="w-full mb-3" alt="project" />
           <div className="p-4 pt-2">
             <div className="mb-8">
               <a
